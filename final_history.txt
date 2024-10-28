@@ -1,0 +1,35 @@
+ФИО: Вердиханов Фейтулла Нейруллаевич
+Дата сдачи: 18.08.2024
+Группа: Выходные от 27.02.2024
+    1  cat > Pets.txt <<EOL
+Dog
+Cat
+Hamster
+EOL
+
+    2  cat > PackAnimals.txt <<EOL
+Horse
+Camel
+Donkey
+EOL
+
+    3  cat Pets.txt PackAnimals.txt > Combined.txt
+    4  cat Combined.txt
+    5  mv Combined.txt HumanFriends.txt
+    6  ls
+    7  clear
+    8  mkdir FriendsDir
+    9  mv HumanFriends.txt FriendsDir/
+   10  ls FriendsDir/
+   11  sudo apt update
+   12  sudo apt install wget
+   13  sudo apt update
+   14  sudo apt install mysql-server
+   15  sudo systemctl status mysql
+   16  sudo dpkg -i sample.deb
+   17  sudo apt --fix-broken install
+   18  history > history_commands.txt
+   19  echo "ФИО: Вердиханов Фейтулла Нейруллаевич" > info.txt
+   20  echo "Дата сдачи: 18.08.2024" >> info.txt
+   21  echo "Группа: Выходные от 27.02.2024" >> info.txt
+   22  history > history_commands.txt
